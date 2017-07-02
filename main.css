@@ -19,6 +19,7 @@
   height: 1200px;
   background-color: #e9ebee;
 }
+/*This css is used to give properties to header bar*/
 #header {
     background-color: #4267b2;
     color: white;
@@ -44,16 +45,20 @@
 .image-post {
     margin-bottom: 15px;
 }
+/*This css is used for bar with main id so that it will not overflow*/
 #main {
     overflow: auto;
 }
+/*This class is used to give menu bar's elements or links color black*/
 .first {
 	color: black;
 }
+/*This css is used to remove internal scrollbars*/
 #main::-webkit-scrollbar {
     display: none;
 }
 .comment {
     margin: 0;
 }
+/*This css is used to give body pading because navbar used is fixed to it current position*/
 body { padding-top: 70px; }
